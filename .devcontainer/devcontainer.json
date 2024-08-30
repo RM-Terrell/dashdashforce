@@ -1,0 +1,29 @@
+{
+  "name": "Blog Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+    //   "ghcr.io/devcontainers/features/node:1": {
+    //     "version": "18"
+    //   }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "davidanson.vscode-markdownlint",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "eamodio.gitlens"
+      ]
+    }
+  },
+  // "postCreateCommand": "npm install",
+  // "remoteUser": "node",
+  "forwardPorts": [
+    3000
+  ]
+}
