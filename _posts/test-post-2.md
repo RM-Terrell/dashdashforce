@@ -1,6 +1,6 @@
 ---
-title: "Test post 1"
-excerpt: "A newer published test post. 'date' is different, different coverImage directory"
+title: "Test post 2"
+excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel "
 coverImage: "/assets/blog/test-post-2/cover.jpg"
 date: "2021-03-16T05:35:07.322Z"
 author:

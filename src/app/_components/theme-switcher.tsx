@@ -101,7 +101,7 @@ const Script = memo(() => (
 ));
 
 /**
- * This component wich applies classes and transitions.
+ * This component which applies classes and transitions.
  */
 export const ThemeSwitcher = () => {
   return (

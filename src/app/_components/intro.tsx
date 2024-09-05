@@ -1,4 +1,4 @@
-import { CMS_NAME } from "@/lib/constants";
+import { AboutTheAuthor } from "@/app/_components/about-the-author";
 
 export function Intro() {
   return (
@@ -9,6 +9,7 @@ export function Intro() {
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
         Misadventures in software engineering
       </h4>
+      <AboutTheAuthor />
     </section>
   );
 }
