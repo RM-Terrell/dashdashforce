@@ -34,12 +34,11 @@ export default function About() {
           medical and cloud application data management.
         </p>
         <p className="text-lg mb-8">
-          I have a passion for
-          well tested and clearly structured code with experience in Jest, React
-          Testing Library, Enzyme, Pytest, Postman, Golang test runner, and
-          Cypress/Selenium. My distractions from work include mountain biking,
-          skiing, and PC gaming. Im also actively trying to be a less terrible
-          cook.
+          I have a passion for well tested and clearly structured code with
+          experience in Jest, React Testing Library, Enzyme, Pytest, Postman,
+          Golang test runner, and Cypress/Selenium. My distractions from work
+          include mountain biking, skiing, and PC gaming. Im also actively
+          trying to be a less terrible cook.
         </p>
         <div className="flex space-x-4">
           <a
