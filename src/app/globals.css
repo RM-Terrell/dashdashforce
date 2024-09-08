@@ -11,3 +11,7 @@ html.dark pre {
 pre {
     @apply bg-stone-400 rounded-md p-4;
 }
+
+pre {
+    white-space: pre-wrap;
+}
