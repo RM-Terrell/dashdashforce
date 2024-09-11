@@ -2,16 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Make dark mode pre sections for code blocks have a different background so they pop */
+
+/* ----- Pre block code stylings ----- */
+/* Make code blocks have a different background so md elements like this
+
+```python
+def some_code():
+    return "some code"
+```
+
+will visually pop */
+
+/* Dark mode */
 html.dark pre { 
     @apply bg-stone-700 rounded-md p-4;
 }
 
-/* Make light mode pre sections for code blocks have a different background so they pop */
+/* Light mode */
 pre {
     @apply bg-stone-400 rounded-md p-4;
 }
 
 pre {
     white-space: pre-wrap;
+}
+
+/* --------------- */
+
+
+/* Select any <code> block that is not inside a <pre> block,
+so that elements in md styled `like this` will standout */
+code:not(pre > code) {
+    color: #CC5500;
+}
+
+article a:not(.about-the-author) {
+    color: #006b5e;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* Hover effect */
+article a:hover {
+    text-decoration: underline;
+}
+
+/* Focus state for accessibility */
+article a:focus:not(.about-the-author) {
+    outline: 2px dashed;
+    outline-offset: 2px;
 }
