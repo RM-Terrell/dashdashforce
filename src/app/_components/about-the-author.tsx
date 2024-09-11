@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const AboutTheAuthor = () => {
   return (
-    <Link href="/about" className="hover:underline">
+    <Link href="/about" className="hover:underline about-the-author">
       <Avatar name="RM Terrell" picture="/assets/blog/authors/rm-terrell-small.jpg" />
     </Link>
   );

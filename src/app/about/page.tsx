@@ -36,9 +36,26 @@ export default function About() {
         <p className="text-lg mb-8">
           I have a passion for well tested and clearly structured code with
           experience in Jest, React Testing Library, Enzyme, Pytest, Postman,
-          Golang test runner, and Cypress/Selenium. My distractions from work
-          include mountain biking, skiing, and PC gaming. I'm also actively
-          trying to be a less terrible cook.
+          Golang testing, and Cypress/Selenium. I've also developed a passion
+          for teaching other engineers and building them custom tools to enhance
+          their workflows.
+        </p>
+        <p className="text-lg mb-8">
+          My distractions from work include mountain biking, skiing, and
+          photography. I shamelessly use this blog to show off my amateur
+          photography skills. I'm also actively trying to be a less terrible
+          cook.
+        </p>
+        <p className="text-lg mb-8">
+          Some notes on this blog and its contents: I hate most blog websites. I
+          won't name names but advertisements, popups, cookies, forced account
+          logins, user telemetry, etc are in my opinion a cancer on knowledge. As
+          such you will find none of that here. The source code of this blog is
+          on [my GitHub](https://github.com/RM-Terrell) and I've kept it as
+          minimal as my obsessions over aesthetics will allow. It is currently
+          built with Vercel's NextJS system along with some customizations of my
+          own. Enjoy the knowledge and experiences here, borrow and steal them
+          all you want. I hope you and your AI scraper find them useful.
         </p>
         <div className="flex space-x-4">
           <a
