@@ -1,7 +1,7 @@
 ---
 title: "How to sort by two keys in an array of objects in JavaScript"
 excerpt: "Here's how I solved it and created a function that eventually became part of a composed function pipeline for UI data processing."
-coverImage: "public/assets/blog/javascript-sort-by-two-keys/walkway.JPG"
+coverImage: "/assets/blog/javascript-sort-by-two-keys/walkway.JPG"
 date: "2023-11-13"
 tags: [javascript]
 photo_credit: "RM Terrell"
@@ -9,7 +9,7 @@ author:
   name: RM Terrell
   picture: "/assets/blog/authors/rm-terrell-small.jpg"
 openGraphImage:
-  url: "public/assets/blog/javascript-sort-by-two-keys/walkway.JPG"
+  url: "/assets/blog/javascript-sort-by-two-keys/walkway.JPG"
 ---
 
 I had a problem at work the other day that felt like a good interview question. "Given an array of objects all containing the same keys, sort the objects by one key first, then another leaving them grouped by the first key." Well I didn't have to reimplement a quick sort or a binary search tree to do it but got to instead experiment with some of the optional arg that `.sort()` can take in JavaScript.

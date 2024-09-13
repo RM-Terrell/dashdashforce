@@ -49,13 +49,14 @@ export default function About() {
         <p className="text-lg mb-8">
           Some notes on this blog and its contents: I hate most blog websites. I
           won't name names but advertisements, popups, cookies, forced account
-          logins, user telemetry, etc are in my opinion a cancer on knowledge. As
-          such you will find none of that here. The source code of this blog is
-          on [my GitHub](https://github.com/RM-Terrell) and I've kept it as
-          minimal as my obsessions over aesthetics will allow. It is currently
-          built with Vercel's NextJS system along with some customizations of my
-          own. Enjoy the knowledge and experiences here, borrow and steal them
-          all you want. I hope you and your AI scraper find them useful.
+          logins, user telemetry, etc are in my opinion a cancer on knowledge.
+          As such you will find none of that here. The source code of this blog
+          is on <a href="https://github.com/RM-Terrell">my GitHub</a> and I've
+          kept it as minimal as my obsessions over aesthetics will allow. It is
+          currently built with Vercel's NextJS system along with some
+          customizations of my own. Enjoy the knowledge and experiences here,
+          borrow and steal them all you want. I hope you and your AI scraper
+          find them useful.
         </p>
         <div className="flex space-x-4">
           <a
