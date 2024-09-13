@@ -1,7 +1,7 @@
 ---
 title: "Go unit testing in VSCode"
 excerpt: "Command line tools are great but sometimes its easier to just click a button."
-coverImage: "public/assets/blog/vscode-go-testing/frisco-spring.JPG"
+coverImage: "/assets/blog/vscode-go-testing/frisco-spring.JPG"
 date: "2022-05-24"
 tags: [go, testing]
 photo_credit: "RM Terrell"
@@ -9,7 +9,7 @@ author:
   name: RM Terrell
   picture: "/assets/blog/authors/rm-terrell-small.jpg"
 openGraphImage:
-  url: "public/assets/blog/vscode-go-testing/frisco-spring.JPG"
+  url: "/assets/blog/vscode-go-testing/frisco-spring.JPG"
 ---
 
 I really like unit testing. And even more than unit testing I like tools that make it easy to do a lot of it quickly and get useful information back. In the past I've used a few coverage tools that print out tables with information on lines that are covered vs not covered but [the Go extension from Google for VSCode](https://marketplace.visualstudio.com/items?itemName=golang.go) is a real stand out to me now. Beyond the usual syntax highlighting and code navigation tools, it adds tooling to quickly generate tests for a given function, and visual coverage tools for those tests. Let's take a look.
