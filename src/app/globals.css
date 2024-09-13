@@ -25,6 +25,8 @@ pre {
 
 pre {
     white-space: pre-wrap;
+    word-break: break-all; /* Break long words */
+    overflow-wrap: break-word; /* Break long words */
 }
 
 /* --------------- */
