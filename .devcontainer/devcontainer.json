@@ -3,9 +3,6 @@
   "image": "mcr.microsoft.com/devcontainers/typescript-node:latest",
   "features": {
     "ghcr.io/devcontainers/features/git:1": {}
-    //   "ghcr.io/devcontainers/features/node:1": {
-    //     "version": "18"
-    //   }
   },
   "customizations": {
     "vscode": {
@@ -21,9 +18,7 @@
       ]
     }
   },
-  // "postCreateCommand": "npm install",
+  "postCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
   // "remoteUser": "node",
-  "forwardPorts": [
-    3000
-  ]
+  "forwardPorts": [3000]
 }
