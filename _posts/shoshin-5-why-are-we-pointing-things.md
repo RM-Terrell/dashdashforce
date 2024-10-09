@@ -1,7 +1,7 @@
 ---
 title: "Shoshin 5: Why are we 'pointing' things?"
 excerpt: "A beginner once asked: why don't we do less?"
-coverImage: "assets/blog/shoshin-5/DSCF0588.JPG"
+coverImage: "/assets/blog/shoshin-5/DSCF0588.JPG"
 date: "2024-10-05"
 tags: [shoshin, process]
 photo_credit: "RM Terrell"
@@ -9,7 +9,7 @@ author:
   name: RM Terrell
   picture: "/assets/blog/authors/rm-terrell-small.jpg"
 openGraphImage:
-  url: "assets/blog/shoshin-5/DSCF0588.JPG"
+  url: "/assets/blog/shoshin-5/DSCF0588.JPG"
 ---
 
 ## Fundamental questions are my favorites
