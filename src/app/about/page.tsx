@@ -25,6 +25,15 @@ export default function About() {
           />
         </div>
         <h1 className="text-4xl font-bold mb-4">About the Author</h1>
+        <div className="flex space-x-4 mb-4">
+          <a
+            href="https://github.com/RM-Terrell"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="text-2xl text-gray-600 hover:text-gray-800" />
+          </a>
+        </div>
         <p className="text-lg mb-8">
           I am a software engineer living in Boulder Colorado, where I am
           currently employed at Yes Energy working as a Java, Rust, SQL, and
@@ -58,15 +67,6 @@ export default function About() {
           borrow and steal them all you want. I hope you and your AI scraper
           find them useful.
         </p>
-        <div className="flex space-x-4">
-          <a
-            href="https://github.com/RM-Terrell"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithub className="text-2xl text-gray-600 hover:text-gray-800" />
-          </a>
-        </div>
       </div>
     </Container>
   );
