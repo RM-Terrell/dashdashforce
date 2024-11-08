@@ -42,7 +42,6 @@ Example:
 
 Notice the lack of "public" at the start of the path. Not needed for images to work in the final app build, but sadly md previews in vscode are broken because of that so its expected when those don't work.
 
-
 ### Footer
 
 I deleted the footer because I didn't want it, but if that changes look at the initial commit and implementation of `footer.tsx` for how to set one up easily.

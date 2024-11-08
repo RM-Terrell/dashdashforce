@@ -34,7 +34,7 @@ But obviously not every task is created the same. Some are small and can be done
 
 Most of the time during this process a given group of engineers pointing will give the same or close to the same values for a given task which might lead one to wonder why even spend the time doing it? Wouldn't one engineer doing all the pointing be more efficient instead of having everyone on a call? Much of the time, yes. If your goal is just to get tickets pointed. The main value of pointing however is not the final point values. It's for those interesting situations when one engineer says 2 and the other says 8.
 
-<strong>Pointing acts as a mechanism to find situations of misunderstanding or unevenly distributed knowledge between engineers.</strong>
+***Pointing acts as a mechanism to find situations of misunderstanding or unevenly distributed knowledge between engineers.***
 
 When situations of significant disagreement popup, seize on those as a chance for everyone to learn new things about your system and possibly fill out some further detail in the task. If things were worded sparsely enough that such a misunderstanding occurred before work even began, then thats a sign the work needs clarifying. If it is indeed much more difficult jot down why, and if not make it clear also to avoid someone doing excessive work. The added bonus of this will be clarity in retrospect should you ever need to look back on this work and understand why things changed the way they did.
 

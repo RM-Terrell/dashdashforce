@@ -1,6 +1,6 @@
 ---
 title: "Shoshin 4: But what *is* JSON?"
-excerpt: "So on this installment of 'beginners mind' we have the question of 'what *is* the data I need anyways?' Not what I was sending to the API it turns out."
+excerpt: "On this installment of 'beginners mind' we have the question of 'what *is* the data I need anyways?' Not what I was sending to the API it turns out."
 coverImage: "/assets/blog/shoshin-4/DSCF0706b.jpg"
 date: "2023-09-25"
 tags: [json, shoshin]
