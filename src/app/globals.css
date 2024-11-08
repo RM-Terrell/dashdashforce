@@ -14,7 +14,7 @@ def some_code():
 will visually pop */
 
 /* Dark mode */
-html.dark pre { 
+html.dark pre {
     @apply bg-stone-700 rounded-md p-4;
 }
 
@@ -25,8 +25,10 @@ pre {
 
 pre {
     white-space: pre-wrap;
-    word-break: break-all; /* Break long words */
-    overflow-wrap: break-word; /* Break long words */
+    word-break: break-all;
+    /* Break long words */
+    overflow-wrap: break-word;
+    /* Break long words */
 }
 
 /* --------------- */
@@ -54,4 +56,14 @@ article a:hover {
 article a:focus:not(.about-the-author) {
     outline: 2px dashed;
     outline-offset: 2px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 1.5em;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 1.5em;
 }

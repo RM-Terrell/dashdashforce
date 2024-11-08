@@ -1,6 +1,6 @@
 ---
 title: "Custom Sliding Checkboxes"
-excerpt: "<>"
+excerpt: "Those pesky UI/UX engineers always wanting something different..."
 coverImage: "/assets/blog/sliding-checkboxes/bergen_fjords.jpg"
 date: "2020-06-12"
 tags: [css, html]
