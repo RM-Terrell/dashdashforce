@@ -1,5 +1,5 @@
 ---
-title: "Using git diff to to aid code reviews"
+title: "Git diff to AI tools workflow for change review"
 excerpt: "Bender helps with a PR review"
 coverImage: "/assets/blog/diff_to_ai/DSCF0671.JPG"
 date: "2024-11-06"
