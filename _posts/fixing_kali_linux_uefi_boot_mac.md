@@ -38,7 +38,13 @@ To auto boot a particular `.efi` you need to edit the `startup.nsh` file in the 
 
 This will open the file in a text editor where you can add the path to the `.efi` file you want to boot. In my case, I added `FS0:\EFI\kali\grubaa64.efi` (again note the slash direction here) to the file and saved it by hitting Enter, followed by Control + S and Enter again. Then Control + Q to exit the editor. Man that's worse than vim.
 
-At this point enter `reset` and hit enter to restart the VM and it should boot into Kali Linux automatically! Happy Hacking.
+At this point type `reset` and hit enter to restart the VM.
+
+![kali-boot](/assets/blog/kali-boot-fix/kali-boot.png)
+
+There's Kali.
+
+Happy Hacking.
 
 ## Useful links I found while figuring this out
 
