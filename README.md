@@ -56,7 +56,6 @@ Full date time example format (the z indicates UTC)
 
 ## To build
 
-- [ ] Fix issue where narrowing on the home page smashes the "misadventures" text into the pfp
 - [ ] Fix bottom spacing on about page
 - [ ] Fix code formatting on mobile
 - [ ] Make use of post "tags" data to show a few related posts at the end of an individual post that has those same matching tags
