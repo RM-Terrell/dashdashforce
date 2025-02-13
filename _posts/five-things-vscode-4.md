@@ -87,7 +87,7 @@ You can also access this via the Command Palette by opening that and searching f
 
 Another one in the Command Palette is the ability to transform words into different cases with a single command. Next time you need to change a words casing (lower, upper, camel, snake, etc), run open up the Command Palette with <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>p</kbd> and search "transform case". You'll be greeted with these options.
 
-![case-transform](public/assets/blog/five-things-vscode-4/case-transform.png)
+![case-transform](/assets/blog/five-things-vscode-4/case-transform.png)
 
 You can even vaporize a few gallons of water and a concerning amount of fossil fuels by transforming it with Co-Pilot too! Who needs regex and such when you have an LLM.
 
