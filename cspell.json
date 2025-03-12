@@ -12,7 +12,8 @@
         "PYTHONPATH",
         "touchpad",
         "touchpads",
-        "macbook"
+        "macbook",
+        "Liquibase"
     ],
     "flagWords": [
         "hte",
