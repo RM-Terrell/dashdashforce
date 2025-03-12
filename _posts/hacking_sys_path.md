@@ -2,7 +2,7 @@
 title: "Hacking Python sys.path"
 excerpt: "PYTHONPATH my old nemesis, we meet yet again."
 coverImage: "assets/blog/hacking_sys_path/railing.JPG"
-date: "2025-3-11"
+date: "2025-03-11"
 tags: [python, docker, vscode]
 photo_credit: "RM Terrell"
 author:
