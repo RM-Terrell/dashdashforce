@@ -36,11 +36,11 @@ export default function About() {
         </div>
         <p className="text-lg mb-8">
           I am a software engineer living in Boulder Colorado, where I am
-          currently employed at Yes Energy working as a Java, Rust, SQL, and
-          Javascript Engineer. I also have experience using Go, Python, React,
-          Kubernetes, Docker, MongoDB, and other technologies building data
-          intensive applications for a wide range of industries including
-          medical and cloud application data management.
+          currently employed at Yes Energy working as a Java, C#, SQL, and
+          Javascript Engineer. I also have experience using Go, Rust, Python,
+          React, Kubernetes, Docker, MongoDB, MySQL and other related
+          technologies building data intensive applications for a wide range of
+          industries including medical and cloud application data management.
         </p>
         <p className="text-lg mb-8">
           I have a passion for well tested and clearly structured code with
@@ -56,12 +56,13 @@ export default function About() {
           cook.
         </p>
         <p className="text-lg mb-8">
-          Some notes on this blog and its contents: I hate most blog websites. I
-          won't name names but advertisements, popups, cookies, forced account
-          logins, user telemetry, etc are in my opinion a cancer on knowledge.
-          As such you will find none of that here. The source code of this blog
-          is on <a href="https://github.com/RM-Terrell">my GitHub</a> and I've
-          kept it as minimal as my obsessions over aesthetics will allow. It is
+          Some notes on this blog and its contents: I dislike most blog
+          websites. I won't name names but advertisements, popups, cookies,
+          forced account logins, user telemetry, etc are in my opinion a cancer
+          on knowledge. As such you will find none of that here. The source code
+          of this blog is on{" "}
+          <a href="https://github.com/RM-Terrell">my GitHub</a> and I've kept it
+          as minimal as my obsessions over aesthetics will allow. It is
           currently built with Vercel's NextJS system along with some
           customizations of my own. Enjoy the knowledge and experiences here,
           borrow and steal them all you want. I hope you and your AI scraper
