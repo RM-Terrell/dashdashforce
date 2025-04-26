@@ -1,5 +1,5 @@
 ---
-title: "Group gardening. Code Reviews Part 1: reflections on documentation, communicating critique, and review culture."
+title: "Group gardening. Code Reviews Part 1: documentation, communicating critique, and review culture."
 excerpt: "With a nod to Karl Popper."
 coverImage: "/assets/blog/pr-reviews-1/DSCF1368.JPG"
 date: "2025-04-25"
