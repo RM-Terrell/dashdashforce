@@ -9,7 +9,7 @@ author:
   name: RM Terrell
   picture: "/assets/blog/authors/rm-terrell-small.jpg"
 openGraphImage:
-  url: "/assets/blog/art-of-pr-reviews/DSCF1368.JPG"
+  url: "/assets/blog/pr-reviews-1/DSCF1368.JPG"
 ---
 
 Code reviews are hard, and doing them well requires a special blend of technological knowledge, reasoning skills, people skills, project historical knowledge, best practices, and cultural / language understandings that often don't overlap in any one person. On top of this, what is best for one team and the technology they work on may not work well for another so it's hard to have one set of absolute rules for how all of the software industry does reviews. I however would argue that there are _common guidelines_ that can help improve all code reviews that share roots in human institutions generally.
