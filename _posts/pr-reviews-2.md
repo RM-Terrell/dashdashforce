@@ -9,7 +9,7 @@ author:
   name: RM Terrell
   picture: "/assets/blog/authors/rm-terrell-small.jpg"
 openGraphImage:
-  url: "/assets/blog/pr-reviews-2/DSCF1368.JPG"
+  url: "/assets/blog/pr-reviews-2/arcade.JPG"
 ---
 
 ## A systematic approach
