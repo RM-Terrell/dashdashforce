@@ -180,15 +180,15 @@ It is the opinion of the author that the ability to write well and clearly about
 
 [Adrienne Braganza](https://www.youtube.com/watch?v=zxHRYRxBNVE)
 
-[Ruff](https://astral.sh/ruff) (python linter and analysis)
+[Ruff](https://astral.sh/ruff)
 
-[ESLINT](https://eslint.org/) (javascript linter and formatter)
+[ESLINT](https://eslint.org/)
 
-[Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) (spell checker for VS Code that can be customized per workspace)
+[Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
-[Prettier](https://prettier.io/) (javascript/css/html formatter)
+[Prettier](https://prettier.io/) 
 
-[Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) (VS Code linter for .md files)
+[Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
 [Karl Popper](https://press.princeton.edu/books/paperback/9780691210841/the-open-society-and-its-enemies)
 
