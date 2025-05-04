@@ -10,7 +10,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.dashdashforce.dev'),
   title: `Dashdashforce`,
-  description: `Misadventures in software engineering`,
 };
 
 export default function RootLayout({
