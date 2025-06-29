@@ -57,7 +57,6 @@ Full date time example format (the z indicates UTC)
 ## To build
 
 - [ ] Fix bottom spacing on about page
-- [ ] Fix code formatting on mobile
+- [ ] Fix code formatting on mobile and add syntax highlighting
+- [ ] > Quote blocks are rendered a bit too subtle. make it more distinct
 - [ ] Make use of post "tags" data to show a few related posts at the end of an individual post that has those same matching tags
-- [ ] Make use of the "photo_credit" data to show a small bit of text under an image for the credit of who took the photo.
-- [ ] After implementing "photo credit" text, add a link to that authors Instagram (Sam's can be found in the old blog repo)
