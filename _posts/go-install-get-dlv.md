@@ -12,7 +12,7 @@ openGraphImage:
   url: "/assets/blog/go-install-get-dlv/dia.JPG"
 ---
 
-A little while back I decided I wanted my own way to run and debug Golang code in a familiar method (local VS Code) to help with a few small projects I'm working on in Go, and also use a proof of concept platform at work. I spun up [a repo](https://github.com/RM-Terrell/go-scratch-pad) after I got code executing in a devcontainer but soon after realized debug breakpoints didn't work. A small but rather important detail considering the goal of the project. I quickly hit a few errors that felt work documenting for other gophers.
+A little while back I decided I wanted my own way to run and debug Golang code in a familiar method (local VS Code) to help with a few small projects I'm working on in Go, and also use as a proof of concept platform at work. I spun up [a repo](https://github.com/RM-Terrell/go-scratch-pad) after I got code executing in a devcontainer but soon after realized debug breakpoints didn't work. A small but rather important detail considering the goal of the project. I quickly hit a few errors that felt work documenting for other gophers.
 
 ## Dockerfile and devcontainer.json files
 
@@ -116,7 +116,7 @@ RUN go install golang.org/x/tools/gopls@latest \
 
 `gopls` and `staticcheck` are two other libraries needed to fully build code and debug it. Fun fact with this command deprecation, AI tools will sometimes lie to you about what `go get` does due to the history of how the command has changed, thus demonstrating the importance of knowing how to read in 2025.
 
-A neat Go feature though is its built in CLI help documentation. To see docs for this situation run
+A neat related Go feature is its built in CLI help documentation. To see docs for this situation run
 
 ```bash
 go help get
@@ -145,7 +145,7 @@ Upon trying to build the container with the new libraries being installed I got 
 14.70 cgo: C compiler "gcc" not found: exec: "gcc": executable file not found in $PATH
 ```
 
-Although Go itself doesn't require C, the dlv library uses it to recompile code with debugging options This wound up being an easy fix via the build-essential library
+Although Go itself doesn't require C, the dlv library uses it to recompile code with debugging options. This wound up being an easy fix via the build-essential library
 
 ```Dockerfile
 RUN apt-get update && apt-get install -y \
