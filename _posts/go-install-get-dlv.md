@@ -125,7 +125,7 @@ go help install
 
 And you'll get the correct version specific info right from the source:
 
-> In earlier versions of Go, 'go get' was used to build and install packages.
+> In earlier versions of Go, `go get` was used to build and install packages.
 Now, 'go get' is dedicated to adjusting dependencies in go.mod. 'go install'
 may be used to build and install commands instead. When a version is specified,
 'go install' runs in module-aware mode and ignores the go.mod file in the
