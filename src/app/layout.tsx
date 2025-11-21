@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import cn from "classnames";
-import { ThemeSwitcher } from "./_components/theme-switcher";
 
 import "./globals.css";
+import "katex/dist/katex.min.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.dashdashforce.dev'),
+  metadataBase: new URL("https://www.dashdashforce.dev"),
   title: `Dashdashforce`,
 };
 
@@ -53,9 +52,8 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body
-        className={cn(inter.className, "dark:bg-stone-800 dark:text-stone-400 bg-stone-300 text-stone-800")}
+        className={`${inter.className} bg-stone-900 text-stone-300 selection:bg-cyan-900 selection:text-cyan-100`}
       >
-        <ThemeSwitcher />
         <div className="min-h-screen">{children}</div>
       </body>
     </html>
