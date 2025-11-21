@@ -26,7 +26,7 @@ You can't actually run any code and you don't have a shell.
 
 If you hit the command to open up a terminal session in VSCode you're greeted with this.
 
-![dead_shell](/assets/img/vscode-ipad/dead_shell.PNG)
+![dead_shell](/assets/blog/python-on-ipad/dead_shell.PNG)
 
 This limits some extensions too, at least ones that require actually running or compiling the code you are editing in the background. Some extensions may require a "reinstall" too, which you can tell by looking at the extensions side bar view and scrolling through for ones that have a button push to install the web version of them. None the less being able to traverse code with most of a functional IDE all in a web browser is super useful for code reviews on the go or quickly exploring a repo with more tooling than the tradition Github interface gets you. The message in the terminal gives a clue of how to get a more full experience in the web via Code Spaces.
 
@@ -60,10 +60,10 @@ PYTHONPATH=.:${PYTHONPATH}
 
 You may need to add an additional path specifier on the end there if you have your code sitting in a subdirectory. After doing that though importing works and the unit test extension can discover and run tests, and even debug them! Modern web browsers are truly an amazing thing. Here it is stepping through a dumb one liner function via the debugger to prove it works. In a browser. On an iPad.
 
-![ipad_debugging](/assets/img/vscode-ipad/ipad_debugging.jpg)
+![ipad_debugging](/assets/blog/python-on-ipad/ipad_debugging.jpg)
 
 Jeff Goldblum might want a word with the engineers over at Github.
 
-![science](/assets/img/vscode-ipad/science.jpg)
+![science](/assets/blog/python-on-ipad/science.jpg)
 
 May your code editing be light and mobile.

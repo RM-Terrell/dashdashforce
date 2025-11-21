@@ -56,7 +56,4 @@ Full date time example format (the z indicates UTC)
 
 ## To build
 
-- [ ] Fix bottom spacing on about page
-- [ ] Fix code formatting on mobile and add syntax highlighting
-- [ ] > Quote blocks are rendered a bit too subtle. make it more distinct
 - [ ] Make use of post "tags" data to show a few related posts at the end of an individual post that has those same matching tags

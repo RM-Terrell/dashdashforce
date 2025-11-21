@@ -2,44 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* ----- Pre block code stylings ----- */
-/* Make code blocks have a different background so md elements like this
-
-```python
-def some_code():
-    return "some code"
-```
-
-will visually pop */
-
-/* Dark mode */
-html.dark pre {
-    @apply bg-stone-700 rounded-md p-4;
-}
-
-/* Light mode */
+/* Code Blocks (Pre) */
 pre {
-    @apply bg-stone-400 rounded-md p-4;
-}
-
-pre {
+    @apply bg-stone-800 rounded-md p-4 border border-stone-700 overflow-x-auto;
     white-space: pre-wrap;
     word-break: break-all;
-    /* Break long words */
     overflow-wrap: break-word;
-    /* Break long words */
 }
 
-/* --------------- */
-
+@layer base {
+  /* 1. REMOVE BACKTICKS forced by tailwind-typography */
+  .prose :where(code):not(:where(pre *))::before {
+    content: "" !important;
+  }
+  .prose :where(code):not(:where(pre *))::after {
+    content: "" !important;
+  }
+}
 
 /* Select any <code> block that is not inside a <pre> block,
 so that elements in md styled `like this` will standout */
 code:not(pre > code) {
-    color: #CC5500;
+    @apply text-white bg-stone-800 px-1.5 py-0.5 rounded border border-stone-700/50 shadow-sm font-semibold text-[0.9em];
+    white-space: nowrap; 
 }
 
+/* Links */
 article a:not(.about-the-author) {
     color: #006b5e;
     text-decoration: none;
@@ -47,23 +35,22 @@ article a:not(.about-the-author) {
     transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
-/* Hover effect */
 article a:hover {
-    text-decoration: underline;
+    @apply text-teal-300 underline decoration-2 underline-offset-4;
 }
 
-/* Focus state for accessibility */
 article a:focus:not(.about-the-author) {
-    outline: 2px dashed;
-    outline-offset: 2px;
+    @apply outline-dashed outline-2 outline-offset-2 outline-teal-400;
 }
 
 ol {
     list-style-type: decimal;
     margin-left: 1.5em;
+    @apply marker:text-stone-500;
 }
 
 ul {
     list-style-type: disc;
     margin-left: 1.5em;
+    @apply marker:text-stone-500;
 }
