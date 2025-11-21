@@ -16,6 +16,8 @@ I love it when fundamental math concepts pop up in a practical problem.
 
 In an attempt to more thoroughly learn Go and get better at algorithmic thinking, I've gone back to working through basic Code Wars problems with the goal of trying to solve each problem via drawing and sketching on an iPad first before I start typing out actual code. To those of you who this sounds obvious and trivial, I envy you. It sadly took this long into my software career before I realized the value of _drawing_ when working a problem vs just trying to solve it all in my head and lean on pattern recognition to solve problems vs step by step thinking and writing down the edge cases and requirements.
 
+## Chopping up numbers
+
 I recently worked on a seemingly very simple problem in Code Wars that was the following:
 
 ```txt
@@ -72,7 +74,7 @@ Input -> create return array -> get length of input -> loop -> { modulo the last
 
 But hang on, how do I "get length of input"? This input isn't a slice or string that I can run `len()` against. How does one get the number of digits in a number? That _sounds_ like something with a very elegant math solution but I wasn't sure how to find it. Turning the problem to Gemini "how do I get the number of digits in a number in general computer programming languages (no specific library tool)?" I was sent right back to highschool math.
 
-A logarithm.
+## Logarithms
 
 Logarithms essentially count 0s, and log<sub>10</sub>(x) asks the question "what power of 10 is the number `x`?
 
@@ -95,7 +97,6 @@ Logarithms essentially count 0s, and log<sub>10</sub>(x) asks the question "what
   - Digits: 4
   - Exponential: $10^{3.09}$
   - Logarithm: $\log_{10}(1234) \approx 3.09$
-
 
 Using this relation I can `math.log10()` my input number to get its number of `0`s. A few small wrinkles though, `log10()` in Go takes and returns a `float64` so a type conversion is needed there for my `int` input. Likewise in the case of 1234, I'm not interested in the `3.09` part of the full answer, I just want the `3`, so converting to an `int` again can be used to nicely floor the value.
 
@@ -131,7 +132,11 @@ func Digitize(n int) []int {
 }
 ```
 
-For being a rank 8 (the easiest problem class) on Code Wars that had a surprising number of interesting optimizations that could be done. For fun lets benchmark all the versions I came up with.
+For being a rank 8 (the easiest problem class) on Code Wars that had a surprising number of interesting optimizations that could be done.
+
+## Benchmarking the solutions
+
+All the different versions of the solution I came up with looked like this.
 
 ```go
 package benchmarking
@@ -193,7 +198,7 @@ func DigitizeAppend(n int) []int {
 
 ```
 
-and the benchmark setup
+and the benchmark setup for them
 
 ```go
 package benchmarking
