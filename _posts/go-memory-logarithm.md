@@ -76,7 +76,7 @@ But hang on, how do I "get length of input"? This input isn't a slice or string 
 
 ## Logarithms
 
-Logarithms essentially count 0s, and log<sub>10</sub>(x) asks the question "what power of 10 is the number `x`?
+Logarithms essentially count 0s, and $\log_{10}(x)$ asks the question "what power of 10 is the number `x`?
 
 - **Number: 10**
   - Zeros: 1
