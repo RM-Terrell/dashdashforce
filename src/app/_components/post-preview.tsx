@@ -1,11 +1,13 @@
 import Link from "next/link";
 import DateFormatter from "./date-formatter";
+import cn from "classnames";
 
 type Props = {
   title: string;
   date: string;
   excerpt: string;
   slug: string;
+  isHero?: boolean;
 };
 
 export function PostPreview({
@@ -13,12 +15,16 @@ export function PostPreview({
   date,
   excerpt,
   slug,
+  isHero = false,
 }: Props) {
   return (
     <div>
-      <div className="mb-5">
-      </div>
-      <h3 className="text-3xl mb-3 leading-snug">
+      <h3
+        className={cn("leading-snug mb-3", {
+          "text-3xl": !isHero,
+          "text-4xl lg:text-5xl": isHero,
+        })}
+      >
         <Link href={`/posts/${slug}`} className="hover:underline">
           {title}
         </Link>
