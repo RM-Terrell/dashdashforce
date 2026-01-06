@@ -2,6 +2,7 @@ import { remark } from "remark";
 import remarkMath from "remark-math";
 import remarkRehype from "remark-rehype";
 import rehypeKatex from "rehype-katex";
+import rehypeSlug from "rehype-slug";
 import rehypeStringify from "rehype-stringify";
 
 export default async function markdownToHtml(markdown: string) {
@@ -9,6 +10,7 @@ export default async function markdownToHtml(markdown: string) {
     .use(remarkMath)
     .use(remarkRehype)
     .use(rehypeKatex)
+    .use(rehypeSlug)
     .use(rehypeStringify)
     .process(markdown);
   return result.toString();
