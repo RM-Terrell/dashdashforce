@@ -52,10 +52,10 @@ export default function About() {
               and other related technologies building data intensive
               applications for a wide range of industries including medical and
               cloud application data management. I have a passion for well
-              tested, clearly structured code and I've developed a passion for
+              tested, clearly structured code and I also have a love for
               teaching other engineers and building them custom tools to enhance
-              their workflows, along with promoting good documentation practices
-              even when deadlines are tight.
+              their workflows, along with promoting good documentation and
+              craftsmanship practices even when deadlines are tight.
             </p>
             <p className="text-lg mb-8">
               My distractions from work include mountain biking, skiing, and
