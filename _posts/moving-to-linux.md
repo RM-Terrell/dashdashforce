@@ -20,10 +20,10 @@ If you want to jump straight into the install steps [go to this section](#the-ac
 
 ## What's in this guide
 
-- **[History & Context](#the-goal)** — What we're doing, my background, and Linux fundamentals (distros, immutable systems, KDE vs GNOME)
-- **[Problems to Expect](#problems-you-can-expect)** — Known blockers and issues before you start (anti-cheat, Office, Nvidia)
-- **[The Actual Install](#the-actual-install-steps)** — Step-by-step Bazzite installation
-- **[Using Your New System](#installing-software-in-bazzite)** — Flatpaks, terminal basics, controllers, audio
+- **[History & Context](#the-goal)** — Who this guide is for, my background, and Linux basic terms
+- **[Problems to Expect](#problems-you-can-expect)** — Known blockers and issues before you start (anti-cheat, Office)
+- **[The Actual Install](#the-actual-install-steps)** — OS installation
+- **[Using Your New System](#installing-software-in-bazzite)** — Flatpaks, Flathub, terminal basics
 - **[Things I've Loved](#things-i-have-loved)** — The good stuff that makes it all worth it
 - **[Scripting Basics](#a-peek-into-the-abyss)** — A simple bash script example
 - **[Further Reading](#more-reading-resources-and-articles-i-recommend)** — Books, articles, and communities
@@ -32,7 +32,11 @@ If you want to jump straight into the install steps [go to this section](#the-ac
 
 This guide will cover an actual full system install aimed at beginners and as such won't get under the hood of how Linux works and how to really mess with it. I am going to focus on what you need to get rolling fast and with minimal buzzwords being thrown at you, although some history and technical terms being explained right away will make the experience much more pleasant. There are MANY more detailed guides written by far smarter people than me if you want more details so treat this post as a spring board. This guide was largely inspired by friends and colleagues considering making this leap and needing a general sense of direction.
 
-An alternative is to use a software like VirtualBox to install a Linux ISO as a Virtual Machine (VM) inside your original system. If you don't know what a VM is go [check out this article by Google](https://cloud.google.com/learn/what-is-a-virtual-machine). It sounds complicated at first but in practice it's a pretty simple thing that will unlock a whole new world for you. If you just want a quick preview of what it's like to navigate a given distro of Linux and not do things like gaming on it (VMs are pretty resource intensive and bit restrictive for stuff like gaming), then _this is a great choice_. You can blow it away easily (or blow it up) and not affect your underlying system at all.
+## Not ready to take the full dive?
+
+An alternative is to use a software like VirtualBox to install a Linux ISO as a Virtual Machine (VM) inside your original system. If you don't know what a VM is go [check out this article by Google](https://cloud.google.com/learn/what-is-a-virtual-machine). It sounds complicated at first but in practice it's a pretty simple thing that will unlock a whole new world for you.
+
+If you just want a quick preview of what it's like to navigate a given version of Linux, and test out software like LibreOffice Calc replacing Excel as mentioned in [this section](#microsoft-office), then _this is a great choice_. You should probably not do things like gaming in a VM as they are pretty resource intensive and bit restrictive for hardware intense software like video games. But you can blow it away easily (or blow it up) and not affect your underlying system at all.
 
 ## Some brief history on me so you know I know what I'm talking about
 
