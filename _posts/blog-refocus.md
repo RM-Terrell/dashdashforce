@@ -2,7 +2,7 @@
 title: "New Year, New Focus"
 excerpt: "Less of a digital hermit now"
 coverImage: "/assets/blog/blog-refocus/fence.JPG"
-date: "2026-01-12"
+date: "2026-02-21"
 tags: [meta]
 photo_credit: "RM Terrell"
 author:
