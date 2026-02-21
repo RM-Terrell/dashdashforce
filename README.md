@@ -53,7 +53,3 @@ Full date time example format (the z indicates UTC)
 ```markdown
 2021-05-16T05:35:07.322Z
 ```
-
-## To build
-
-- [ ] Make use of post "tags" data to show a few related posts at the end of an individual post that has those same matching tags
